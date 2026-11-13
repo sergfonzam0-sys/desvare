@@ -1,11 +1,11 @@
 const CATALOGO_DESVARE = [
-  {
+{
     id: 1,
     nombre: "Aceite Full Sintético 10W-40 4T",
     categoria: "Lubricantes",
     precio: 48000,
     stock: 25,
-    imagen: "img/recomendacion/aceite.jpg",
+    imagen: "img/products/aceite.jpg",
     descripcion: "Lubricante de alto rendimiento para motores 4 tiempos. Protección térmica extrema para el clima de Barranquilla."
   },
   {
@@ -23,7 +23,7 @@ const CATALOGO_DESVARE = [
     categoria: "Repuestos",
     precio: 135000,
     stock: 14,
-    imagen: "img/desvare/partes.jpg",
+    imagen: "img/products/kid de arrastre.jpg",
     descripcion: "Piñón delantero, catalina en acero templado y cadena reforzada de alta durabilidad."
   },
   {
@@ -32,7 +32,7 @@ const CATALOGO_DESVARE = [
     categoria: "Eléctrico",
     precio: 118000,
     stock: 18,
-    imagen: "img/mision/motor.jpg",
+    imagen: "img/products/bateria 12v.jpg",
     descripcion: "Arranque en frío garantizado, sellada de fábrica y resistente a vibraciones."
   },
   {
@@ -41,7 +41,7 @@ const CATALOGO_DESVARE = [
     categoria: "Frenos y Llantas",
     precio: 38000,
     stock: 30,
-    imagen: "img/recomendacion/ante salir.jpg",
+    imagen: "img/products/juego de pasrtilla.jpg",
     descripcion: "Frenado silencioso y seguro en pavimento seco o mojado sin desgaste prematuro del disco."
   },
   {
@@ -50,7 +50,8 @@ const CATALOGO_DESVARE = [
     categoria: "Emergencia",
     precio: 42000,
     stock: 22,
-    imagen: "img/desvare/con tigo.jpg",
+    imagen: " img/products/kit despiche.webp",
+   
     descripcion: "Solución portátil para reparar pinchazos en la vía en menos de 5 minutos sin desmontar la llanta."
   },
   {
@@ -59,7 +60,7 @@ const CATALOGO_DESVARE = [
     categoria: "Eléctrico",
     precio: 45000,
     stock: 40,
-    imagen: "img/mision/mecanica.jpg",
+    imagen: "img/products/bujia.jpg",
     descripcion: "Encendido rápido, mejor combustión y ahorro de combustible para motos urbanas y sport."
   },
   {
@@ -68,7 +69,7 @@ const CATALOGO_DESVARE = [
     categoria: "Lubricantes",
     precio: 29000,
     stock: 35,
-    imagen: "img/mision/mecanico.jpg",
+    imagen: "img/products/lubricante cadena.jpg",
     descripcion: "Adherencia superior que repele polvo y humedad, alargando la vida útil del kit de arrastre."
   },
   {
@@ -86,7 +87,7 @@ const CATALOGO_DESVARE = [
     categoria: "Frenos y Llantas",
     precio: 215000,
     stock: 9,
-    imagen: "img/recomendacion/1.jpg",
+    imagen: "img/products/llanta.jpg",
     descripcion: "Labrado deportivo de máximo agarre y evacuación de agua para conducción segura."
   },
   {
@@ -95,7 +96,7 @@ const CATALOGO_DESVARE = [
     categoria: "Repuestos",
     precio: 24000,
     stock: 28,
-    imagen: "img/desvare/mapa.jpg",
+    imagen: "img/products/guaya clutch.jpg",
     descripcion: "Cable trenzado en acero inoxidable con prisioneros de emergencia para desvare rápido."
   },
   {
@@ -104,7 +105,7 @@ const CATALOGO_DESVARE = [
     categoria: "Servicios",
     precio: 75000,
     stock: 20,
-    imagen: "img/recomendacion/2.jpg",
+    imagen: "img/products/preventivo.jpg",
     descripcion: "Cambio de aceite, tensión y lubricación de cadena, revisión de frenos, luces y batería en tu casa."
   }
 ];
