@@ -5,7 +5,7 @@ const CATALOGO_DESVARE = [
     categoria: "Lubricantes",
     precio: 48000,
     stock: 25,
-    imagen: "Img/recomendacion/aceite.jpg",
+    imagen: "img/recomendacion/aceite.jpg",
     descripcion: "Lubricante de alto rendimiento para motores 4 tiempos. Protección térmica extrema para el clima de Barranquilla."
   },
   {
@@ -14,7 +14,7 @@ const CATALOGO_DESVARE = [
     categoria: "Servicios",
     precio: 35000,
     stock: 99,
-    imagen: "Img/nacimiento/taller mivil.png",
+    imagen: "img/nacimiento/taller mivil.png",
     descripcion: "Desplazamiento inmediato de técnico certificado hasta tu ubicación en Barranquilla y área metropolitana."
   },
   {
@@ -23,7 +23,7 @@ const CATALOGO_DESVARE = [
     categoria: "Repuestos",
     precio: 135000,
     stock: 14,
-    imagen: "Img/desvare/partes.jpg",
+    imagen: "img/desvare/partes.jpg",
     descripcion: "Piñón delantero, catalina en acero templado y cadena reforzada de alta durabilidad."
   },
   {
@@ -32,7 +32,7 @@ const CATALOGO_DESVARE = [
     categoria: "Eléctrico",
     precio: 118000,
     stock: 18,
-    imagen: "Img/mision/motor.jpg",
+    imagen: "img/mision/motor.jpg",
     descripcion: "Arranque en frío garantizado, sellada de fábrica y resistente a vibraciones."
   },
   {
@@ -41,7 +41,7 @@ const CATALOGO_DESVARE = [
     categoria: "Frenos y Llantas",
     precio: 38000,
     stock: 30,
-    imagen: "Img/recomendacion/ante salir.jpg",
+    imagen: "img/recomendacion/ante salir.jpg",
     descripcion: "Frenado silencioso y seguro en pavimento seco o mojado sin desgaste prematuro del disco."
   },
   {
@@ -50,7 +50,7 @@ const CATALOGO_DESVARE = [
     categoria: "Emergencia",
     precio: 42000,
     stock: 22,
-    imagen: "Img/desvare/con tigo.jpg",
+    imagen: "img/desvare/con tigo.jpg",
     descripcion: "Solución portátil para reparar pinchazos en la vía en menos de 5 minutos sin desmontar la llanta."
   },
   {
@@ -59,7 +59,7 @@ const CATALOGO_DESVARE = [
     categoria: "Eléctrico",
     precio: 45000,
     stock: 40,
-    imagen: "Img/mision/mecanica.jpg",
+    imagen: "img/mision/mecanica.jpg",
     descripcion: "Encendido rápido, mejor combustión y ahorro de combustible para motos urbanas y sport."
   },
   {
@@ -68,7 +68,7 @@ const CATALOGO_DESVARE = [
     categoria: "Lubricantes",
     precio: 29000,
     stock: 35,
-    imagen: "Img/mision/mecanico.jpg",
+    imagen: "img/mision/mecanico.jpg",
     descripcion: "Adherencia superior que repele polvo y humedad, alargando la vida útil del kit de arrastre."
   },
   {
@@ -77,7 +77,7 @@ const CATALOGO_DESVARE = [
     categoria: "Servicios",
     precio: 89000,
     stock: 50,
-    imagen: "Img/desvare/logo.jpeg",
+    imagen: "img/desvare/logo.jpeg",
     descripcion: "3 asistencias en vía sin costo de desplazamiento, tarifas preferenciales y prioridad 24/7."
   },
   {
@@ -86,7 +86,7 @@ const CATALOGO_DESVARE = [
     categoria: "Frenos y Llantas",
     precio: 215000,
     stock: 9,
-    imagen: "Img/recomendacion/1.jpg",
+    imagen: "img/recomendacion/1.jpg",
     descripcion: "Labrado deportivo de máximo agarre y evacuación de agua para conducción segura."
   },
   {
@@ -95,7 +95,7 @@ const CATALOGO_DESVARE = [
     categoria: "Repuestos",
     precio: 24000,
     stock: 28,
-    imagen: "Img/desvare/mapa.jpg",
+    imagen: "img/desvare/mapa.jpg",
     descripcion: "Cable trenzado en acero inoxidable con prisioneros de emergencia para desvare rápido."
   },
   {
@@ -104,7 +104,7 @@ const CATALOGO_DESVARE = [
     categoria: "Servicios",
     precio: 75000,
     stock: 20,
-    imagen: "Img/recomendacion/2.jpg",
+    imagen: "img/recomendacion/2.jpg",
     descripcion: "Cambio de aceite, tensión y lubricación de cadena, revisión de frenos, luces y batería en tu casa."
   }
 ];
