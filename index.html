@@ -138,6 +138,62 @@
     <div class="footer-bottom">© 2026 Desvare Taller Móvil Express — Todos los derechos reservados.</div>
   </footer>
 
+  
+  <!-- Modal de Selección de Marca, Tamaño/Referencia y Cantidad -->
+  <div class="modal-backdrop" id="product-modal">
+    <div class="modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; margin-bottom:1rem;">
+        <div style="display:flex; gap:1rem; align-items:center;">
+          <img id="pmodal-img" src="" alt="Producto" style="width:76px; height:76px; object-fit:cover; border-radius:10px; border:1px solid var(--border-color);">
+          <div>
+            <span id="pmodal-cat" style="font-size:0.75rem; font-weight:700; color:var(--primary); text-transform:uppercase;"></span>
+            <h3 id="pmodal-title" style="font-size:1.18rem; color:var(--bg-dark); line-height:1.25;"></h3>
+          </div>
+        </div>
+        <button type="button" onclick="closeProductModal()" aria-label="Cerrar" style="background:#f3f4f6; border:none; width:32px; height:32px; border-radius:50%; font-size:1.2rem; font-weight:700; cursor:pointer; color:var(--text-main);">&times;</button>
+      </div>
+
+      <p id="pmodal-desc" style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1.15rem;"></p>
+
+      <div id="pmodal-variants-wrap">
+        <div class="form-group">
+          <label for="pmodal-marca">1. Marca de tu motocicleta *</label>
+          <select id="pmodal-marca" class="form-control" onchange="updateProductModalSizes()"></select>
+        </div>
+
+        <div class="form-group">
+          <label for="pmodal-tamano">2. Tamaño / Referencia compatible *</label>
+          <select id="pmodal-tamano" class="form-control" onchange="updateProductModalPrice()"></select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pmodal-cantidad">3. Cantidad</label>
+        <div style="display:flex; align-items:center; gap:0.75rem;">
+          <button type="button" class="qty-btn" onclick="stepModalQty(-1)">−</button>
+          <input type="number" id="pmodal-cantidad" class="form-control" value="1" min="1" max="50" style="width:85px; text-align:center; font-weight:700;" oninput="updateProductModalPrice()">
+          <button type="button" class="qty-btn" onclick="stepModalQty(1)">+</button>
+        </div>
+      </div>
+
+      <div style="background:#f9fafb; border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.95rem 1rem; margin:1.1rem 0;">
+        <div style="display:flex; justify-content:space-between; font-size:0.9rem; color:var(--text-muted); margin-bottom:0.35rem;">
+          <span>Valor unitario:</span>
+          <strong id="pmodal-unit-price" style="color:var(--text-main);">$0</strong>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:1.15rem; font-weight:800; color:var(--bg-dark);">
+          <span>Subtotal:</span>
+          <span id="pmodal-total-price" style="color:var(--primary);">$0</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:0.75rem;">
+        <button type="button" class="btn btn-dark" style="flex:1;" onclick="closeProductModal()">Cancelar</button>
+        <button type="button" class="btn btn-primary" style="flex:2;" onclick="confirmAddToCartFromModal()">🛒 Agregar al Carrito</button>
+      </div>
+    </div>
+  </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>
